@@ -1,0 +1,69 @@
+@media(max-width: 900px){
+    .navbar .nav-item{
+        display: block;
+        width: 100%;
+        padding: 10px 0px;
+    }
+}
+p {
+   font-size: 18px;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+/* Practice Information */
+.practice-information-title {
+    background-color: #4D7F4B;
+    color: #ffffff;
+}
+.quick-links {
+    background-color: #61B9D7;
+    color: #ffffff;
+}
+/* Bottom */
+.green-bottom{
+    background-color: #B9D6B8;
+}
+.grey-bottom{
+    background-color: #E8E8E8;
+}
+.blue-bottom{
+    background-color: #60B9D7;
+}
+.green-text {
+    color: #4D7F4B;
+}
+.grey{
+    color: #6A6B6A;
+}
+/* Button */
+.btn-outline-secondary{
+    background-color: transparent !important;
+    border-color: #6A6b6a !important;
+    color:  #6a6b6a !important;
+    border-radius: 0;
+    position: relative;
+}
+.btn-outline-secondary:before{
+    content: '';
+    position: absolute;
+    background-color: #4d7f4b;
+    color: #ffffff;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    z-index: -1;
+    transition: 0.5s;
+}
+.btn-outline-secondary:hover:before{
+    width: 100%;
+}
+/* Footer */
+.footer {
+    background-image: url('images/logo-formal.png');
+}
