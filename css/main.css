@@ -34,7 +34,7 @@ html,body{
 .blue-bottom{
     background-color: #60B9D7;
 }
-.green-text {
+.green-text , .navbar-toggler-icon {
     color: #4D7F4B;
 }
 .grey{
